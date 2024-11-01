@@ -294,6 +294,14 @@
   <ItemGroup>
     <None Include="Resources\folder.png" />
   </ItemGroup>
+  <ItemGroup>
+    <Content Include="ex-images\bar.png" />
+    <Content Include="ex-images\basic.png" />
+    <Content Include="ex-images\errors.png" />
+    <Content Include="ex-images\parsetree.png" />
+    <Content Include="ex-images\run.png" />
+    <Content Include="ex-images\tokens.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Import Project="packages\Fody.4.0.2\build\Fody.targets" Condition="Exists('packages\Fody.4.0.2\build\Fody.targets')" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
